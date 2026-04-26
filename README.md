@@ -22,9 +22,12 @@ Make sure you select the Textmode Driver and the Intel(R) Generic SATA AHCI/RAID
 # Troubleshooting & Bug Fixing
 Here are some of the errors I encountered while testing on DEV_22A3 and how I've fixed them:
 
-**1. 0x7B still appear:**
+**1. 0x7B still appear**
 - Make sure you have added the drivers correctly.
 - For **Windows 2000 and XP*: If you are using a USB drive to store the installer, use [WinNTSetup](https://taimienphi.vn/download-winntsetup-66477/64bit-phien-ban) to apply Windows to the hard drive (after extracting the ISO into a complete folder, especially one containing the I386 folder).
 
 **2. 0xA5 BSOD**
 - Unfortunately, your device uses ACPI that is too new for Windows XP to communicate. Please use [Modified ACPI for Windows XP](https://www.mediafire.com/file/wsqgptapdrxhidf/ACPI2.0_v4_x86+x64_5.1+5.2.7z/file) (there is still no solution for Windows 2000).
+
+**3. (0x4, 0, 0, 0) error after Setup Is Starting Windows**
+- It's still an ACPI error, but it's no longer an ACPI compatibility issue; instead, the hardware information returned is incorrect because it's too new, for example. To fix this, repeatedly press the F7 key when the 'Press F6' screen appears (also known as txtsetup) to activate Standard PC mode so you don't need ACPI and only use HAL (this can also be applied to 0xA5 if using [Modified ACPI for Windows XP](https://www.mediafire.com/file/wsqgptapdrxhidf/ACPI2.0_v4_x86+x64_5.1+5.2.7z/file) doesn't work!).
