@@ -18,7 +18,7 @@ Tips: To view your controller HardwareIDs, press Windows + R -> type 'devmgmt.ms
 # Usages
 To add driver, use [Nlite](https://www.nliteos.com/) or F6 Floppy Method
 
-Make sure you select the Textmode Driver and the Intel(R) Generic SATA AHCI/RAID controller driver when using the [Nlite](https://www.nliteos.com/) method.
+Make sure you selected the Textmode Driver and the Intel(R) Generic SATA AHCI/RAID controller driver when using the [Nlite](https://www.nliteos.com/) method.
 # Troubleshooting & Bug Fixing
 Here are some of the errors I encountered while testing on DEV_22A3 and how I've fixed them:
 
