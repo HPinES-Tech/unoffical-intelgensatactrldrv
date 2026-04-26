@@ -24,7 +24,7 @@ Here are some of the errors I encountered while testing on DEV_22A3 and how I've
 
 **1. 0x7B still appear**
 - Make sure you have added the drivers correctly.
-- For **Windows 2000 and XP*: If you are using a USB drive to store the installer, use [WinNTSetup](https://taimienphi.vn/download-winntsetup-66477/64bit-phien-ban) to apply Windows to the hard drive (after extracting the ISO into a complete folder, especially one containing the I386 folder).
+- For *Windows 2000 and XP*: If you are using a USB drive to store the installer, use [WinNTSetup](https://taimienphi.vn/download-winntsetup-66477/64bit-phien-ban) to apply Windows to the hard drive (after extracting the ISO into a complete folder, especially one containing the I386 folder).
 
 **2. 0xA5 BSOD**
 - Unfortunately, your device uses ACPI that is too new for Windows XP to communicate. Please use [Modified ACPI for Windows XP](https://www.mediafire.com/file/wsqgptapdrxhidf/ACPI2.0_v4_x86+x64_5.1+5.2.7z/file) (there is still no solution for Windows 2000).
