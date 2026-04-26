@@ -32,4 +32,4 @@ Here are some of the errors I encountered while testing on DEV_22A3 and how I've
 **3. (0x4, 0, 0, 0) error after Setup Is Starting Windows**
 - It's still an ACPI error, but it's no longer an ACPI compatibility issue; instead, the hardware information returned is incorrect because it's too new, for example. To fix this, repeatedly press the F7 key when the 'Press F6' screen appears (also known as txtsetup) to activate Standard PC mode so you don't need ACPI and only use HAL (this can also be applied to 0xA5 if using [Modified ACPI for Windows XP](https://www.mediafire.com/file/wsqgptapdrxhidf/ACPI2.0_v4_x86+x64_5.1+5.2.7z/file) doesn't work!).
 # Compatibility
-Right now, the project only supports AHCI controllers. But we promise to add RAID controller support in the future. Download the driver here!
+Right now, the project only supports AHCI controllers. But we promise to add RAID controller support in the future. Download the driver [here](https://github.com/HPinES-Tech/unoffical-intelgensatactrldrv/releases/tag/Unstable)!
